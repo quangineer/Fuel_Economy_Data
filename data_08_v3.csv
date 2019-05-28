@@ -134,7 +134,6 @@ BUICK LaCrosse,5.3,8,Auto-L4,2WD,Gasoline,midsize car,6,16,25,19,5,no
 BUICK Lucerne,3.8,6,Auto-L4,2WD,Gasoline,large car,9.5,16,25,19,5,no
 BUICK Terraza,3.9,6,Auto-L4,2WD,Gasoline,minivan,6,16,23,19,5,no
 CADILLAC CTS,3.6,6,Man-6,2WD,Gasoline,midsize car,6,16,25,19,5,no
-CADILLAC CTS,3.6,6,Man-6,2WD,Gasoline,midsize car,6,16,25,19,5,no
 CADILLAC CTS,3.6,6,Auto-S6,4WD,Gasoline,midsize car,6,17,25,20,6,no
 CADILLAC CTS,3.6,6,Auto-S6,4WD,Gasoline,midsize car,6,17,26,20,6,no
 CADILLAC CTS,3.6,6,Auto-S6,2WD,Gasoline,midsize car,6,17,26,20,6,no
@@ -171,10 +170,8 @@ CHEVROLET Express 2500,5.3,8,Auto-L4,2WD,Gasoline,van,6,12,16,14,2,no
 CHEVROLET HHR,2.2,4,Man-5,2WD,Gasoline,SUV,7,20,30,24,7,yes
 CHEVROLET HHR,2.2,4,Man-5,2WD,Gasoline,SUV,7,21,30,24,7,yes
 CHEVROLET HHR,2.2,4,Auto-L4,2WD,Gasoline,SUV,7,22,30,25,7,yes
-CHEVROLET HHR,2.2,4,Auto-L4,2WD,Gasoline,SUV,7,22,30,25,7,yes
 CHEVROLET HHR,2.4,4,Man-5,2WD,Gasoline,SUV,7,20,28,23,7,yes
 CHEVROLET HHR,2.4,4,Man-5,2WD,Gasoline,SUV,7,20,29,23,7,yes
-CHEVROLET HHR,2.4,4,Auto-L4,2WD,Gasoline,SUV,7,22,28,24,7,yes
 CHEVROLET HHR,2.4,4,Auto-L4,2WD,Gasoline,SUV,7,22,28,24,7,yes
 CHEVROLET HHR,2.0,4,Auto-L4,2WD,Gasoline,SUV,6,19,28,22,6,no
 CHEVROLET Impala,3.5,6,Auto-L4,2WD,Gasoline,large car,9.5,18,29,22,6,yes
@@ -316,14 +313,10 @@ FORD Expedition,5.4,8,Auto-L6,2WD,Gasoline,SUV,7,12,18,14,2,no
 FORD Explorer,4.0,6,Auto-L5,2WD,Gasoline,SUV,7,14,20,16,4,no
 FORD Explorer,4.0,6,Auto-L5,4WD,Gasoline,SUV,7,13,19,15,3,no
 FORD Explorer,4.6,8,Auto-L6,2WD,Gasoline,SUV,7,13,20,16,4,no
-FORD Explorer,4.6,8,Auto-L6,2WD,Gasoline,SUV,7,13,20,16,4,no
-FORD Explorer,4.6,8,Auto-L6,4WD,Gasoline,SUV,7,13,19,15,3,no
 FORD Explorer,4.6,8,Auto-L6,4WD,Gasoline,SUV,7,13,19,15,3,no
 FORD Explorer Sport Trac,4.0,6,Auto-L5,2WD,Gasoline,pickup,7,14,20,16,4,no
 FORD Explorer Sport Trac,4.0,6,Auto-L5,4WD,Gasoline,pickup,7,13,19,15,3,no
 FORD Explorer Sport Trac,4.6,8,Auto-L6,2WD,Gasoline,pickup,7,13,20,16,4,no
-FORD Explorer Sport Trac,4.6,8,Auto-L6,2WD,Gasoline,pickup,7,13,20,16,4,no
-FORD Explorer Sport Trac,4.6,8,Auto-L6,4WD,Gasoline,pickup,7,13,19,15,3,no
 FORD Explorer Sport Trac,4.6,8,Auto-L6,4WD,Gasoline,pickup,7,13,19,15,3,no
 FORD F150,5.4,8,Auto-L4,2WD,Gasoline,pickup,7,13,17,14,2,no
 FORD F150,5.4,8,Auto-L4,4WD,Gasoline,pickup,7,13,17,14,2,no
@@ -331,7 +324,6 @@ FORD F150,4.2,6,Auto-L4,2WD,Gasoline,pickup,6,14,19,16,4,no
 FORD F150,4.2,6,Man-5,2WD,Gasoline,pickup,6,14,20,16,4,no
 FORD F150,4.6,8,Auto-L4,2WD,Gasoline,pickup,6,14,19,16,4,no
 FORD F150,4.6,8,Auto-L4,4WD,Gasoline,pickup,6,13,17,14,2,no
-FORD F150 STX SE,5.4,8,Auto-L4,2WD,Gasoline,pickup,7,14,19,15,3,no
 FORD F150 STX SE,5.4,8,Auto-L4,2WD,Gasoline,pickup,7,14,19,15,3,no
 FORD Focus,2.0,4,Auto-L4,2WD,Gasoline,small car,9.5,24,33,28,8,yes
 FORD Focus,2.0,4,Man-5,2WD,Gasoline,small car,9.5,24,35,28,8,yes
@@ -347,8 +339,6 @@ FORD Mustang,4.6,8,Man-5,2WD,Gasoline,small car,6,15,23,18,5,no
 FORD Mustang,5.4,8,Man-6,2WD,Gasoline,small car,6,14,20,16,4,no
 FORD Ranger,2.3,4,Auto-L5,2WD,Gasoline,pickup,7,19,24,21,6,yes
 FORD Ranger,2.3,4,Man-5,2WD,Gasoline,pickup,7,21,26,23,7,yes
-FORD Ranger,3.0,6,Auto-L5,2WD,Gasoline,pickup,7,15,20,17,4,no
-FORD Ranger,3.0,6,Man-5,2WD,Gasoline,pickup,7,16,22,18,5,no
 FORD Ranger,3.0,6,Auto-L5,2WD,Gasoline,pickup,7,15,20,17,4,no
 FORD Ranger,3.0,6,Man-5,2WD,Gasoline,pickup,7,16,22,18,5,no
 FORD Ranger,3.0,6,Auto-L5,4WD,Gasoline,pickup,7,14,19,16,4,no
@@ -370,13 +360,10 @@ GMC Savana 1500,5.3,8,Auto-L4,4WD,Gasoline,van,6,12,16,14,2,no
 GMC Savana 1500,5.3,8,Auto-L4,2WD,Gasoline,van,6,12,16,14,2,no
 GMC Savana 1500,5.3,8,Auto-L4,4WD,Gasoline,van,6,13,17,15,3,no
 GMC Savana 1500,5.3,8,Auto-L4,2WD,Gasoline,van,6,14,18,15,3,no
-GMC Savana 1500,5.3,8,Auto-L4,4WD,Gasoline,van,6,12,16,14,2,no
-GMC Savana 1500,5.3,8,Auto-L4,2WD,Gasoline,van,6,12,16,14,2,no
 GMC Savana 2500,4.3,6,Auto-L4,2WD,Gasoline,van,6,15,20,17,4,no
 GMC Savana 2500,5.3,8,Auto-L4,2WD,Gasoline,van,6,12,16,14,2,no
 GMC Savana 2500,5.3,8,Auto-L4,4WD,Gasoline,van,6,13,17,15,3,no
 GMC Savana 2500,5.3,8,Auto-L4,2WD,Gasoline,van,6,14,18,15,3,no
-GMC Savana 2500,5.3,8,Auto-L4,2WD,Gasoline,van,6,12,16,14,2,no
 GMC Sierra 15,4.3,6,Auto-L4,2WD,Gasoline,pickup,6,15,20,17,4,no
 GMC Sierra 15,4.3,6,Auto-L4,4WD,Gasoline,pickup,6,14,18,15,3,no
 GMC Sierra 15,6.0,8,Auto-L4,2WD,Gasoline,pickup,6,13,18,15,3,no
@@ -641,8 +628,6 @@ MERCURY Milan,3.0,6,Auto-L6,2WD,Gasoline,midsize car,7,18,26,21,6,yes
 MERCURY Mountaineer,4.0,6,Auto-L5,2WD,Gasoline,SUV,7,14,20,16,4,no
 MERCURY Mountaineer,4.0,6,Auto-L5,4WD,Gasoline,SUV,7,13,19,15,3,no
 MERCURY Mountaineer,4.6,8,Auto-L6,2WD,Gasoline,SUV,7,13,20,16,4,no
-MERCURY Mountaineer,4.6,8,Auto-L6,2WD,Gasoline,SUV,7,13,20,16,4,no
-MERCURY Mountaineer,4.6,8,Auto-L6,4WD,Gasoline,SUV,7,13,19,15,3,no
 MERCURY Mountaineer,4.6,8,Auto-L6,4WD,Gasoline,SUV,7,13,19,15,3,no
 MERCURY Sable,3.5,6,Auto-L6,4WD,Gasoline,large car,9.5,17,24,19,5,no
 MERCURY Sable,3.5,6,Auto-L6,2WD,Gasoline,large car,9.5,18,28,22,6,yes
@@ -653,19 +638,14 @@ MINI Mini Cooper S Convertible,1.6,4,Man-6,2WD,Gasoline,small car,6,24,31,27,8,y
 MITSUBISHI Eclipse,2.4,4,Auto-S4,2WD,Gasoline,small car,7,20,26,22,6,yes
 MITSUBISHI Eclipse,2.4,4,Man-5,2WD,Gasoline,small car,7,20,28,23,7,yes
 MITSUBISHI Eclipse,3.8,6,Man-6,2WD,Gasoline,small car,6,16,25,19,5,no
-MITSUBISHI Eclipse,3.8,6,Man-6,2WD,Gasoline,small car,6,16,25,19,5,no
-MITSUBISHI Eclipse,3.8,6,Auto-S5,2WD,Gasoline,small car,6,17,25,20,6,no
 MITSUBISHI Eclipse,3.8,6,Auto-S5,2WD,Gasoline,small car,6,17,25,20,6,no
 MITSUBISHI Eclipse Spyder,2.4,4,Auto-S4,2WD,Gasoline,small car,7,19,26,22,6,yes
 MITSUBISHI Eclipse Spyder,2.4,4,Man-5,2WD,Gasoline,small car,7,19,26,22,6,yes
 MITSUBISHI Eclipse Spyder,3.8,6,Auto-S5,2WD,Gasoline,small car,6,16,24,19,5,no
-MITSUBISHI Eclipse Spyder,3.8,6,Auto-S5,2WD,Gasoline,small car,6,16,24,19,5,no
-MITSUBISHI Eclipse Spyder,3.8,6,Man-6,2WD,Gasoline,small car,6,16,25,19,5,no
 MITSUBISHI Eclipse Spyder,3.8,6,Man-6,2WD,Gasoline,small car,6,16,25,19,5,no
 MITSUBISHI Endeavor,3.8,6,Auto-S4,2WD,Gasoline,SUV,6,15,22,18,5,no
 MITSUBISHI Endeavor,3.8,6,Auto-S4,4WD,Gasoline,SUV,6,15,19,17,4,no
 MITSUBISHI Galant,2.4,4,Auto-S4,2WD,Gasoline,midsize car,9.5,20,27,23,7,yes
-MITSUBISHI Galant,3.8,6,Auto-S5,2WD,Gasoline,midsize car,6,17,25,20,6,no
 MITSUBISHI Galant,3.8,6,Auto-S5,2WD,Gasoline,midsize car,6,17,25,20,6,no
 MITSUBISHI Lancer,2.0,4,Man-5,2WD,Gasoline,small car,9.5,21,29,24,7,yes
 MITSUBISHI Lancer,2.0,4,Auto-AV,2WD,Gasoline,small car,9.5,22,29,24,7,yes
@@ -815,7 +795,6 @@ SAAB 9-5 Sportcombi,2.3,4,Man-5,2WD,Gasoline,station wagon,6,18,28,21,6,no
 SAAB 9-7X,5.3,8,Auto-L4,4WD,Gasoline,SUV,6,13,19,16,4,no
 SAAB 9-7X,6.0,8,Auto-L4,4WD,Gasoline,SUV,6,12,16,13,1,no
 SALEEN S281,5.0,8,Man-6,2WD,Gasoline,small car,6,12,18,14,2,no
-SALEEN S281,5.0,8,Man-6,2WD,Gasoline,small car,6,12,18,14,2,no
 SATURN Aura,3.5,6,Auto-L4,2WD,Gasoline,midsize car,7,18,29,22,6,yes
 SATURN Aura,2.4,4,Auto-L4,2WD,Gasoline,midsize car,6,22,30,25,7,yes
 SATURN Aura,3.6,6,Auto-S6,2WD,Gasoline,midsize car,6,17,26,20,6,no
@@ -920,8 +899,6 @@ TOYOTA Solara,2.4,4,Man-5,2WD,Gasoline,small car,7,21,31,25,7,yes
 TOYOTA Solara,2.4,4,Auto-S5,2WD,Gasoline,small car,7,22,31,25,7,yes
 TOYOTA Solara,3.3,6,Auto-S5,2WD,Gasoline,small car,7,18,27,21,6,yes
 TOYOTA Solara Convertible,3.3,6,Auto-S5,2WD,Gasoline,small car,7,18,26,21,6,yes
-TOYOTA Tacoma,2.7,4,Auto-L4,2WD,Gasoline,pickup,6,19,25,21,6,no
-TOYOTA Tacoma,2.7,4,Man-5,2WD,Gasoline,pickup,6,20,25,22,6,no
 TOYOTA Tacoma,2.7,4,Auto-L4,2WD,Gasoline,pickup,6,19,25,21,6,no
 TOYOTA Tacoma,2.7,4,Man-5,2WD,Gasoline,pickup,6,20,25,22,6,no
 TOYOTA Tacoma,2.7,4,Man-5,4WD,Gasoline,pickup,6,17,22,19,5,no
