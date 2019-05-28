@@ -12,6 +12,7 @@ df_18 = pd.read_csv('data_18_v3.csv')
 hb_08 = df_08[df_08['fuel'].str.contains('/')]  # pull out all the cell that has the value containing '/'
 hb_18 = df_18[df_18['fuel'].str.contains('/')]
 
+
 # After the step above is executed, we now have two sets of datas namely hb_08 and hb_18.
 # We have to crack each 'hybrid' row and split them into two new rows in which one with value
 # for the first fuel type (value before the '/'), and one with value for the second fuel type
@@ -42,3 +43,18 @@ df_08 = df_08.append(new_rows, ignore_index=True)
 
 ###### WE are HALF WAY THRU the process of split old and add new rows.
 ###### Still have one more dataframe of df_18 to repeat this process.
+
+dataframe1 = hb_18.copy()
+dataframe2 = hb_18.copy()
+List_of_Split_Columns = ['fuel', 'city_mpg', 'hwy.mpg', 'cmb_mpg'] # make a list of columns needed to be fixed
+for c in List_of_Split_Columns:
+    dataframe1[c]=dataframe1[c].apply(lambda x: x.split("/")[0]) # get the first #
+    dataframe2[c]=dataframe2[c].apply)lambda x: x.split("/")[1]) # get the second #
+new_rows_for_df_18 = dataframe1.append(dataframe2) # combine two new datasets into one
+df_18.drop(hb_18.index, inplace=True) # throw away the old datasets in which values are associated into one cell
+df_18.append(new_rows_for_df_18, ignore_index=True) # append the new dataset to big dataframe
+
+
+print (df_18[df_18['fuel'].str.contains('/')])  # Recheck df18 to make sure everything is crystal clear as wished
+
+print (df_08[df_08['fuel'].str.contains('/')])  # Recheck df08 to make sure everything is crystal clear as wished
