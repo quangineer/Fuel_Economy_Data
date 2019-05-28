@@ -68,4 +68,7 @@ df_18 = df_18.append(new_rows_for_df_18, ignore_index=True) # append the new dat
 
 df_08['air_pollution_score']=df_08['air_pollution_score'].astype(float)
 df_18['air_pollution_score']=df_18['air_pollution_score'].astype(float)
-# print(df_08.info(), df_18.info())
+
+#Save it to v4:
+df_08.to_csv('data_08_v4.csv', index=False)
+df_18.to_csv('data_18_v4.csv', index=False)
