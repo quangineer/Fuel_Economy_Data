@@ -3,6 +3,7 @@ import pandas as pd
 df_08 = pd.read_csv('data_08_v2.csv')
 df_18 = pd.read_csv('data_18_v2.csv')
 
+
 df_08['cyl'].value_counts() #Count the number of each unique value in a column
 
 df_18['cyl'].value_counts() #Count the number of each unique value in a column
