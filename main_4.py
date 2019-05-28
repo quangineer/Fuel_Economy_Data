@@ -39,3 +39,6 @@ df_08.drop(hb_08.index, inplace=True)
 
 # add in our newly separated rows:
 df_08 = df_08.append(new_rows, ignore_index=True)
+
+###### WE are HALF WAY THRU the process of split old and add new rows.
+###### Still have one more dataframe of df_18 to repeat this process.
