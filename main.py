@@ -23,3 +23,4 @@ df_18.rename(columns=lambda x: x.strip().lower().replace(" ", "_"), inplace=True
 # save new datasets for next section
 df_08.to_csv('data_08_v1.csv', index=False)
 df_18.to_csv('data_18_v1.csv', index=False)
+
