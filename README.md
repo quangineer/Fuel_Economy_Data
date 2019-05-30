@@ -6,3 +6,6 @@ When comparing the distributions of greenhouse gas score in 2008 and 2018, we ca
 
 The distribution of combined miles per gallon from 2008 to 2018 shows us that it became much more skewed to the right in the light of the introduction of electrical/hybrids vehicles
 ![Screenshot](Combined_miles_per_gallon.png)
+
+There is a negative correlation between displacement and comboned mpg. This inversely proportional correlation occurred in both 2008 and 2018. The graph below shows this indirect correlation
+![Screeshot](Correlation_b:w_dpl_mpg.png)
