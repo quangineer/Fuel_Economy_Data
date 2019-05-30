@@ -51,3 +51,17 @@ df_18 = pd.read_csv("clean_18.csv")
 # plt.pyplot.xlabel('Combined miles per gallon')
 # plt.pyplot.ylabel('Count')
 # plt.pyplot.show()
+
+###### Scatterplot ######
+# Option 1 (not recommended) because it will create two separate scatter plots which is incomparable:
+# df_08.plot.scatter(x='displ', y='cmb_mpg')
+# df_18.plot.scatter(x='displ', y='cmb_mpg')
+# plt.pyplot.show()
+
+# Option 2(RECOMMENDED) correlation between displacement and combined mpg
+plt.pyplot.scatter(x=df_08.displ, y=df_08.cmb_mpg, alpha=0.5, label='correlation between displacement and combined mpg in 2008')
+plt.pyplot.scatter(x=df_18.displ, y=df_18.cmb_mpg, alpha=0.5, label='correlation between displacement and combined mpg in 2018')
+plt.pyplot.legend(loc='upper right')
+plt.pyplot.xlabel('displacement')
+plt.pyplot.ylabel('Combined miles per gallon')
+plt.pyplot.show()
