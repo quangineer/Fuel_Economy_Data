@@ -8,7 +8,7 @@ The distribution of combined miles per gallon from 2008 to 2018 shows us that it
 ![Screenshot](Combined_miles_per_gallon.png)
 
 There is a negative correlation between displacement and comboned mpg. This inversely proportional correlation occurred in both 2008 and 2018. The graph below shows this indirect correlation
-![Screeshot](Correlation_b:w_dpl_mpg.png)
+![Screeshot](Combined_miles_per_gallon.png)
 
 There is a positive correlation between greenhouse gas score and combined mpg. This direct relation occurred in both 2008 and 2018. 
 ![Screenshot](Correlation_b:w_Gas_mpg.png)
