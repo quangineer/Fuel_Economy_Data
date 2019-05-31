@@ -20,4 +20,5 @@ df_18_unique_models_alternative_fuel = df_18.query('fuel in ["Electricity", "Eth
 
 combine1 = pd.DataFrame({'year':['2008', '2018'], 'number':[df_08_unique_models_alternative_fuel, df_18_unique_models_alternative_fuel]})
 ax = combine1.plot.bar(x='year', y='number', rot=0)
+plt.pyplot.title('Number of models use alternative fuels in 2008 & 2018')
 plt.pyplot.show()
