@@ -12,3 +12,6 @@ There is a negative correlation between displacement and comboned mpg. This inve
 
 There is a positive correlation between greenhouse gas score and combined mpg. This direct relation occurred in both 2008 and 2018. 
 ![Screenshot](Figure_2.png)
+
+Looks like the alternative sources of fuel available in 2008 are CNG and ethanol, and those in 2018 ethanol and electricity. (You can use Google if you weren't sure which ones are alternative sources of fuel!). Since 2008, the number of unique models using alternative sources of fuel increased by 24. We can also look at proportions.
+![Screeshot](Q1.png)
