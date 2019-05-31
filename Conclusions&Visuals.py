@@ -41,10 +41,18 @@ df_18_SmartWay_vehicles = df_18.query('smartway in ["Yes", "Elite"]')
 SmartWay08_char = df_08_SmartWay_vehicles.describe()
 SmartWay18_char = df_18_SmartWay_vehicles.describe()
 
-SmartWay08_char.greenhouse_gas_score['mean']
-SmartWay18_char.greenhouse_gas_score['mean']
+# SmartWay08_char.greenhouse_gas_score['mean']
+# SmartWay18_char.greenhouse_gas_score['mean']
 
-combine2 = pd.DataFrame({'year':['2008', '2018'], ' Average Greenhouse Gas Score':[SmartWay08_char.greenhouse_gas_score['mean'], SmartWay18_char.greenhouse_gas_score['mean']]})
-ax = combine2.plot.bar(x='year', y=' Average Greenhouse Gas Score', rot=0)
-plt.pyplot.title('Average Greenhouse Gas Score for SmartWay cars in 2008 and 2018')
+# combine2 = pd.DataFrame({'year':['2008', '2018'], ' Average Greenhouse Gas Score':[SmartWay08_char.greenhouse_gas_score['mean'], SmartWay18_char.greenhouse_gas_score['mean']]})
+# ax = combine2.plot.bar(x='year', y=' Average Greenhouse Gas Score', rot=0)
+# plt.pyplot.title('Average Greenhouse Gas Score for SmartWay cars in 2008 and 2018')
+# plt.pyplot.show()
+
+SmartWay08_char.cmb_mpg['mean']
+SmartWay18_char.cmb_mpg['mean']
+
+combine2 = pd.DataFrame({'year':['2008', '2018'], 'Average cmb_mpg':[SmartWay08_char.cmb_mpg['mean'], SmartWay18_char.cmb_mpg['mean']]})
+ax = combine2.plot.bar(x='year', y='Average cmb_mpg', rot=0)
+plt.pyplot.title('Average cmb_mpg for SmartWay cars in 2008 and 2018')
 plt.pyplot.show()
