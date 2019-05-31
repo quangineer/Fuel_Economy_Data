@@ -22,4 +22,10 @@ mean_of_08_VC_cmb_mpg = df_08.groupby('veh_class').cmb_mpg.mean()
 mean_of_18_VC_cmb_mpg = df_18.groupby('veh_class').cmb_mpg.mean()
 increase = mean_of_18_VC_cmb_mpg - mean_of_08_VC_cmb_mpg
 increase.dropna(inplace=True)
-print (increase)
+## PLOT:
+plt.pyplot.subplots(figsize=(8, 5))
+plt.pyplot.bar(increase.index, increase)
+plt.pyplot.title('Improvements in Fuel Economy from 2008 to 2018 by Vehicle Class')
+plt.pyplot.xlabel('Vehicle Class')
+plt.pyplot.ylabel('Increase in Average Combined MPG')
+plt.pyplot.show()
