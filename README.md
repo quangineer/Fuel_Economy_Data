@@ -18,3 +18,7 @@ The alternative sources of fuel available in 2008 are CNG and ethanol whilst tho
 
 Over ten years, vehicle classes improved in fuel economy. It is demonstrated by the increase of combined miles per gallon each class performs in 2018. Due to the re-definition of car models and vehicle classes, some sorts of cars have no information. The other ones are displayed as follows:
 ![Screenshot](Q2.png)
+
+The characteristics of SmartWay vehicles are demonstrated via 2 important factors of cmb_mpg and Greenhouse Gas Score. Throughout ten years, we can see there is an improvement in which the new generation of SmartWay vehicles can travel longer distance and generate less emission as follows:
+![Screenshot](Q3.png)
+![Screenshot](Q3_1.png)
