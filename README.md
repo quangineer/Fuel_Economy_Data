@@ -15,3 +15,6 @@ There is a positive correlation between greenhouse gas score and combined mpg. T
 
 The alternative sources of fuel available in 2008 are CNG and ethanol whilst those in 2018 ethanol and electricity. Since 2008, the number of unique models using alternative sources of fuel increased by 24. We can also look at proportions:
 ![Screeshot](Q1.png)
+
+Over ten years, vehicle classes improved in fuel economy. It is demonstrated by the increase of combined miles per gallon each class performs in 2018. Due to the re-definition of car models and vehicle classes, some sorts of cars have no information. The other ones are displayed as follows:
+![Screenshot](Q2.png)
