@@ -14,6 +14,7 @@ df_combined = df_08.merge(df_18, left_on='model_2008', right_on='model', how='in
 # print (df_combined.shape[0])
 
 # print (df_combined.model_2008.value_counts())
+# Using query to count the frequency of value in a column
 # a = df_combined.query('model_2008 == "AUDI A6"').count()
 # print (a)
 
