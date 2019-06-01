@@ -9,14 +9,21 @@ df_08.rename(lambda x: x[:10] + "_2008", axis=1, inplace=True)
 # Merge 2 datasets:
 df_combined = df_08.merge(df_18, left_on='model_2008', right_on='model', how='inner')
 
+# print (df_08.model_2008.value_counts())
+# # print (df_08.query('model_2008=="AUDI A6"')[['model_2008','displ_2008','cyl_2008']])
+# print (df_18.query('model=="AUDI A6"')[['model','displ','cyl']])
+# print (df_combined.query('model=="AUDI A6"').model)
+# print (df_combined.query('model=="AUDI A6"')[['model_2008','displ_2008','cyl_2008','model','displ','cyl']])
+
+
 # print (df_08.shape[0])
 # print (df_18.shape[0])
 # print (df_combined.shape[0])
 
 # print (df_combined.model_2008.value_counts())
 # Using query to count the frequency of value in a column
-# a = df_combined.query('model_2008 == "AUDI A6"').count()
-# print (a)
+a = df_combined.query('model_2008 == "AUDI A6"').count()
+print (a)
 
 # After merge, check how many columns in total?
 # print (df_combined.columns.nunique()) #26
