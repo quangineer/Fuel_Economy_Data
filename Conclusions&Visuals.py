@@ -45,6 +45,7 @@ df_18 = pd.read_csv("clean_18.csv")
 # SmartWay18_char.greenhouse_gas_score['mean']
 
 # combine2 = pd.DataFrame({'year':['2008', '2018'], ' Average Greenhouse Gas Score':[SmartWay08_char.greenhouse_gas_score['mean'], SmartWay18_char.greenhouse_gas_score['mean']]})
+# print (combine2)
 # ax = combine2.plot.bar(x='year', y=' Average Greenhouse Gas Score', rot=0)
 # plt.pyplot.title('Average Greenhouse Gas Score for SmartWay cars in 2008 and 2018')
 # plt.pyplot.show()
