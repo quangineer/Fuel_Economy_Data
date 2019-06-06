@@ -5,7 +5,7 @@ df_18 = pd.read_csv("clean_18.csv")
 
 # Before the merge, we have to change the name of all columns in df_08 to distinguish from 2018 columns. 
 df_08.rename(lambda x: x[:10] + "_2008", axis=1, inplace=True)
-
+print (df_08)
 # Merge 2 datasets:
 df_combined = df_08.merge(df_18, left_on='model_2008', right_on='model', how='inner')
 
